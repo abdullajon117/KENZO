@@ -1,1 +1,77 @@
-
+.cont{
+    margin-left: 150px;
+    margin-top: 150px;
+    box-sizing: border-box;
+    height: 150px;
+}
+.name{
+    font-size: 3.75rem;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.job{
+    font-size: 3.75rem;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #3B82F6;
+    display: inline-block;
+    margin-top: -50px;
+}
+.text{
+    font-size: 1.25rem;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    display: inline-block;
+    margin-top: -150px;
+}
+.media{
+    display: inline-block;
+}
+.social{
+    display: inline-block;
+    margin-left: 20px;
+}
+.insta{
+    height: 40px;
+}
+.tg{
+    height: 40px;
+}
+.you-tube{
+    height: 40px;
+}
+@media screen and (max-width: 431px){
+    .cont{
+        margin-left: 10px;
+        margin-top: 250px;
+        box-sizing: border-box;
+        height: 150px;
+    }
+    .name{
+        font-size: 2.25rem;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+    .job{
+        font-size: 2.25rem;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        color: #3B82F6;
+        display: inline-block;
+        margin-top: -50px;
+    }
+    .text{
+        font-size: 1rem;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        display: inline-block;
+        margin-top: -150px;
+    }
+    
+}
